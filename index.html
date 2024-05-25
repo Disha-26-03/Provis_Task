@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShipUp - Warehousing and Logistics</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container d-flex justify-content-center">
+            <a class="navbar-brand mx-auto" href="#">Ship<span class="text-danger">Up</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item p-2 dropdown">
+                        <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Company
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">
+                                <div class="submenu-item">
+                                    <div class="icon">
+                                        <i class="fas fa-users"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h2>About Us</h2>
+                                        <p>The people behind ShipUp and the story of shared success.</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <div class="submenu-item">
+                                    <div class="icon">
+                                        <i class="fas fa-handshake"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h2>Prtner With Us</h2>
+                                        <p>Colibration with ShipUp and drive mutual growth</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <div class="submenu-item">
+                                    <div class="icon">
+                                        <i class="fas fa-briefcase"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h2>Career</h2>
+                                        <p>Join the ShipUp</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="newsroom ">
+                                <h2 class="newsroom-heading">Newsroom</h2>
+                                <div class="newsroom-item">
+                                    <div class="newsroom-image">
+                                        <img src="https://via.placeholder.com/400x300img" alt="Newsroom Image">
+                                    </div>
+                                    <div class="newsroom-content">
+                                        <p>News and awards</p>
+                                        <a href="#">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item p-2"><a class="nav-link text-dark" href="#">Services</a></li>
+                    <li class="nav-item p-2"><a class="nav-link text-dark" href="#">Solutions</a></li>
+                    <li class="nav-item p-2"><a class="nav-link text-dark" href="#">Industries</a></li>
+                    <li class="nav-item p-2"><a class="nav-link text-dark" href="#">Insights</a></li>
+                    <li class="nav-item p-2"><a class="nav-link text-dark" href="#">News And Media</a></li>
+                    <li class="nav-item ml-4 p-2"><a class="nav-link btn btn-request-quote btn-size" href="#">Request
+                            Quote</a></li>
+                    <li class="nav-item ml-4 p-2"><a class="nav-link btn btn-join-now btn-size" href="#">Join Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- main section-->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-left">
+                    <h3>
+                        Quick & Reliable
+                        <span class="text-danger no-wrap">Warehousing</span>
+                        <span class="text-danger">
+                            <span class="break-line">and Logistics</span>
+                        </span>
+                        Solution.
+                    </h3><br />
+                    <p>ShipUp delivers an unparalleled customer service through dedicated customer teams, engaged people
+                        working in an agile culture, and a global footprint.</p>
+                    <a href="#" class="btn btn-join btn-thick">Join Now</a>
+                    <a href="#" class="btn btn-play  btn-thick p-4">
+                        <span class="video-icon">
+                            <span class="circle">
+                                <i class="fas fa-video"></i>
+                            </span>
+                        </span>
+
+                        Play Demo</a>
+
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="videoModalLabel">Watch Demo</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+                                        allow="autoplay"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 illustration">
+                    <img src="Ship.png" alt="Logistics">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="form-container shadow p-4 rounded mb-5 bg-light">
+                <form class="shipping-form">
+                    <div class="form-row justify-content-center">
+                        <div class="form-group col-md-3 p-3">
+                            <label for="origin">Origin</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+                                </div>
+                                <input type="text" id="origin" class="form-control" placeholder="Enter Location">
+                            </div>
+                        </div>
+                        <div class="form-group col-md-3 p-3">
+                            <label for="destination">Destination</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+                                </div>
+                                <input type="text" id="destination" class="form-control" placeholder="Enter Location">
+                            </div>
+                        </div>
+                        <div class="form-group col-md-3 p-3">
+                            <label for="weight">Weight (KG)</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-weight"></i></span>
+                                </div>
+                                <input type="text" id="weight" class="form-control" placeholder="Weight (KG)">
+                            </div>
+                        </div>
+                        <div class="form-group col-md-2 pt-3 align-items-end ">
+                            <button type="submit" class="btn btn-check">Check Price</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer class="footer mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5><span class="text-danger">Ship</span>Up</h5>
+                    <p>ShipUp delivers an unparalleled customer service through dedicated customer teams, engaged people
+                        working in an agile culture, and a global footprint.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Explore</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Warehouses</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">News and Media</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 d-flex flex-column">
+                    <div class="d-flex justify-content-between w-100">
+                        <div>
+                            <h5>Legal</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h5>Social Media</h5>
+                            <ul class="list-unstyled list-inline">
+                                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>Ship<span class="text-danger">Up</span>.ng</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
